@@ -1,26 +1,26 @@
 {
-  "name": "lucy",
-  "description": "Lucy a TJBot variation",
+  "name": "almabot",
+  "description": "Alma Bot is a TJBot variation",
   "version": "0.0.1",
   "author": "Marcell Streile <mstreile@gmx.de>",
   "bugs": {
-    "url": "https://github.com/MarzlS/lucy/issues"
+    "url": "https://github.com/MarzlS/almabot/issues"
   },
   "dependencies": {
     "tjbot": "latest"
   },
-  "main": "lucy.js",
-  "homepage": "https://github.com/MarzlS/lucy",
+  "main": "almabot.js",
+  "homepage": "https://github.com/MarzlS/almabot",
   "keywords": [
     "tjbot"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarzlS/lucy.git"
+    "url": "https://github.com/MarzlS/almabot.git"
   },
   "scripts": {
-    "start": "sudo node lucy.js",
+    "start": "sudo node almabot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
