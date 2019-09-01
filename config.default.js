@@ -7,7 +7,7 @@
 */
 
 // replace with the workspace identifier of your Watson Assistant workspace
-exports.workspaceId = 'dc545fad-abcc-498e-b40a-3c70c07efb74';
+exports.workspaceId = 'YOUR_WORKSPACE_ID';
 
 // Set this to false if your TJBot does not have a camera.
 exports.hasCamera = true;
@@ -15,7 +15,7 @@ exports.hasCamera = true;
 // set up TJBot's configuration
 exports.tjConfig = {
     log: {
-        level: 'info'     // info, debug, verbose
+        level: 'info'     // info/verbose/debug/silly
     },
     robot: {
         gender: 'female', // see TJBot.prototype.genders

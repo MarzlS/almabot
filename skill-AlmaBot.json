@@ -1,0 +1,1039 @@
+{
+  "name": "AlmaBot",
+  "intents": [
+    {
+      "intent": "recognize",
+      "examples": [
+        {
+          "text": "was siehst du hier"
+        },
+        {
+          "text": "Weißt du was das ist"
+        },
+        {
+          "text": "erkenne das"
+        },
+        {
+          "text": "was ist das"
+        },
+        {
+          "text": "was erkennst du"
+        },
+        {
+          "text": "was siehst du gerade"
+        },
+        {
+          "text": "was könnte das sein"
+        },
+        {
+          "text": "was kannst du sehen"
+        }
+      ]
+    },
+    {
+      "intent": "praise",
+      "examples": [
+        {
+          "text": "großartig"
+        },
+        {
+          "text": "super"
+        },
+        {
+          "text": "du bist toll"
+        },
+        {
+          "text": "du verstehst sehr schnell"
+        },
+        {
+          "text": "wundervoll"
+        },
+        {
+          "text": "richtig"
+        },
+        {
+          "text": "gut gemacht"
+        },
+        {
+          "text": "sehr schön"
+        },
+        {
+          "text": "gute arbeit"
+        },
+        {
+          "text": "danke"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bis bald"
+        },
+        {
+          "text": "schlaf gut"
+        },
+        {
+          "text": "bei bei"
+        },
+        {
+          "text": "tschau"
+        },
+        {
+          "text": "gute nacht"
+        },
+        {
+          "text": "auf wiedersehen"
+        },
+        {
+          "text": "tschüss"
+        },
+        {
+          "text": "bei"
+        },
+        {
+          "text": "geh weg"
+        }
+      ]
+    },
+    {
+      "intent": "condition",
+      "examples": [
+        {
+          "text": "wie fühlst du dich"
+        },
+        {
+          "text": "wie geht es dir"
+        },
+        {
+          "text": "geht es dir gut"
+        }
+      ],
+      "description": "Ask for condition"
+    },
+    {
+      "intent": "character",
+      "examples": [
+        {
+          "text": "erzähle mir etwas über dich"
+        },
+        {
+          "text": "erzähle uns etwas über dich selbst"
+        },
+        {
+          "text": "was magst du"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hobby",
+      "examples": [
+        {
+          "text": "was tust du gerne in deiner freizeit"
+        },
+        {
+          "text": "was sind deine hobbies"
+        },
+        {
+          "text": "was ist dein hobby"
+        },
+        {
+          "text": "was ist dein lieblingshobby"
+        },
+        {
+          "text": "was machst du am liebsten"
+        },
+        {
+          "text": "was machst du gerne"
+        },
+        {
+          "text": "was ist deine liebste freizeitbeschäftigung"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "schere-stein-papier",
+      "examples": [
+        {
+          "text": "Schere, Stein oder Papier?"
+        },
+        {
+          "text": "Schere Stein Papier"
+        },
+        {
+          "text": "Spiele mit mir Schere Stein Papier"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "coin",
+      "examples": [
+        {
+          "text": "Zahl oder Kopf"
+        },
+        {
+          "text": "Kopf oder Zahl"
+        },
+        {
+          "text": "Werfe eine Münze"
+        },
+        {
+          "text": "Werfe bitte eine Münze für mich"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "time",
+      "examples": [
+        {
+          "text": "warum ist es schon so spät"
+        },
+        {
+          "text": "wie spät ist es"
+        },
+        {
+          "text": "wie viel Uhr ist es"
+        },
+        {
+          "text": "was ist die uhrzeit"
+        },
+        {
+          "text": "wer hat an der uhr gedreht"
+        }
+      ],
+      "description": "Ask for the current time"
+    },
+    {
+      "intent": "disco",
+      "examples": [
+        {
+          "text": "zeig mir alle Farben"
+        },
+        {
+          "text": "lass uns disco machen"
+        },
+        {
+          "text": "mache das licht zu disco"
+        }
+      ]
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "scheint die sonne"
+        },
+        {
+          "text": "wetterbericht bitte"
+        },
+        {
+          "text": "wie ist das wetter"
+        },
+        {
+          "text": "beschreibe das wetter"
+        },
+        {
+          "text": "regnet es gerade"
+        }
+      ],
+      "description": "funny answers about weather"
+    },
+    {
+      "intent": "feel-good",
+      "examples": [
+        {
+          "text": "mir geht es gut danke"
+        },
+        {
+          "text": "ich bin glücklich"
+        },
+        {
+          "text": "mir geht es gut"
+        }
+      ],
+      "description": "User says he is feeling good"
+    },
+    {
+      "intent": "change_light",
+      "examples": [
+        {
+          "text": "stelle das licht auf rot"
+        },
+        {
+          "text": "Ich möchte Gelbes Licht sehen"
+        },
+        {
+          "text": "färbe das licht grün"
+        },
+        {
+          "text": "Stelle das Licht auf Grün"
+        },
+        {
+          "text": "schalte das licht an"
+        },
+        {
+          "text": "ändere das licht auf pink"
+        },
+        {
+          "text": "stelle das licht auf Blau"
+        },
+        {
+          "text": "mache das licht aus"
+        },
+        {
+          "text": "mache das licht grün"
+        },
+        {
+          "text": "bitte lasse das licht weiß scheinen"
+        },
+        {
+          "text": "lass das licht gelb scheinen"
+        }
+      ]
+    },
+    {
+      "intent": "skills",
+      "examples": [
+        {
+          "text": "Was kannst du"
+        },
+        {
+          "text": "Was kannst du tun"
+        },
+        {
+          "text": "was kann man dich fragen?"
+        },
+        {
+          "text": "Was kannst du für mich tun?"
+        },
+        {
+          "text": "Was kannst du alles?"
+        },
+        {
+          "text": "Was soll ich dich fragen"
+        }
+      ],
+      "description": "was Lucy/Alma kann"
+    },
+    {
+      "intent": "favourite_food",
+      "examples": [
+        {
+          "text": "Welches essen magst du am meisten"
+        },
+        {
+          "text": "Was isst du gerne"
+        },
+        {
+          "text": "Was ist dein lieblingsessen"
+        },
+        {
+          "text": "Was isst du am liebsten"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tell-joke",
+      "examples": [
+        {
+          "text": "bitte erzähle mir einen witz"
+        },
+        {
+          "text": "sage etwas witziges"
+        },
+        {
+          "text": "erzähl mir einen witz"
+        },
+        {
+          "text": "erzähle mir etwas lustiges"
+        },
+        {
+          "text": "ich möchte einen witz hören"
+        },
+        {
+          "text": "bringe mich zum lachen"
+        }
+      ]
+    },
+    {
+      "intent": "age",
+      "examples": [
+        {
+          "text": "wann wurdest du geboren"
+        },
+        {
+          "text": "Wie alt bist du"
+        },
+        {
+          "text": "Seit wann lebst du"
+        },
+        {
+          "text": "Wann wurdest du gebaut"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "date",
+      "examples": [
+        {
+          "text": "was ist es heute für ein Tag"
+        },
+        {
+          "text": "welcher Tag ist heute"
+        },
+        {
+          "text": "welches datum haben wir"
+        }
+      ],
+      "description": "Get the date"
+    },
+    {
+      "intent": "hello",
+      "examples": [
+        {
+          "text": "chris die"
+        },
+        {
+          "text": "guten morgen"
+        },
+        {
+          "text": "Hai"
+        },
+        {
+          "text": "hallo"
+        },
+        {
+          "text": "guten tag"
+        },
+        {
+          "text": "geriet die"
+        },
+        {
+          "text": "guten abend"
+        },
+        {
+          "text": "Servus"
+        },
+        {
+          "text": "Gries die"
+        },
+        {
+          "text": "gib mir fünf"
+        }
+      ]
+    },
+    {
+      "intent": "introduce-self",
+      "examples": [
+        {
+          "text": "wer bist du"
+        },
+        {
+          "text": "was bist du"
+        },
+        {
+          "text": "bitte stelle dich selbst vor"
+        },
+        {
+          "text": "erzähle mir etwas über dich"
+        },
+        {
+          "text": "sag mir wer du bist"
+        },
+        {
+          "text": "stelle dich vor"
+        }
+      ]
+    },
+    {
+      "intent": "favourite-animal",
+      "examples": [
+        {
+          "text": "Welche sind deine Lieblingstiere"
+        },
+        {
+          "text": "Welche tiere magst du"
+        },
+        {
+          "text": "Was ist dein lieblingstier"
+        },
+        {
+          "text": "Welche tiere magst du am meisten"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "feel-bad",
+      "examples": [
+        {
+          "text": "mir geht es gerade nicht gut"
+        },
+        {
+          "text": "ich fühle mich schlecht"
+        },
+        {
+          "text": "Ich fühle mich nicht gut"
+        },
+        {
+          "text": "Mir geht es nicht besonders gut"
+        },
+        {
+          "text": "ich bin nicht glücklich"
+        },
+        {
+          "text": "ich fühle mich nicht wohl"
+        }
+      ],
+      "description": "User says he is not so happy"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "color",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "orange",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "blau",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grün",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "an",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pink",
+          "synonyms": [
+            "rosa",
+            "paying"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lila",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rot",
+          "synonyms": [
+            "read",
+            "tot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "weiß",
+          "synonyms": [
+            "heiß",
+            "eis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gelb",
+          "synonyms": [
+            "geld",
+            "aufgeld"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "de",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "4e7cbeac-b3d8-42b9-8ec7-fc9ef3b93d34",
+  "description": "Skill for the German speaking Alma bot.",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oh nein. Du kannst mich bitten, einen Witz zu erzählen, wenn das hilft.",
+            "Schade. Gibt es irgendetwas, womit ich dich aufheitern könnte?",
+            "Dann frage mich, was der Fuchs sagt, es wird dich aufheitern."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1529848241586",
+      "metadata": {},
+      "conditions": "#feel-bad",
+      "dialog_node": "node_3_1532274772188",
+      "previous_sibling": "node_1_1532274247397"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1529848241586",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1483731604403"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1532274321349",
+      "previous_sibling": "node_3_1532274772188"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Cool. Was kann ich für dich tun?",
+            "Das freut mich.",
+            "Das hört sich gut an. Was sollen wir heute tun?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1529848241586",
+      "metadata": {},
+      "conditions": "#praise || #feel-good",
+      "dialog_node": "node_1_1532274247397"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Welche Farbe möchtest du?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1502030860613",
+      "conditions": "true",
+      "dialog_node": "node_3_1502031258962",
+      "previous_sibling": "node_2_1502031203688"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Okay, ich habe das Licht auf @color geändert.",
+            "Cool, das Licht ist jetzt @color.",
+            "Ich liebe @color!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1502030860613",
+      "conditions": "@color",
+      "dialog_node": "node_2_1502031203688"
+    },
+    {
+      "type": "standard",
+      "title": "Condition",
+      "output": {
+        "text": {
+          "values": [
+            "Oh, mir geht es gerade sehr schlecht. Dir?",
+            "Mir geht es gut, danke. Wie geht es dir?",
+            "Mir geht es ganz gut. Dir?",
+            "Ich fühle mich nicht besonders gut. Du vielleicht?",
+            "Mir geht es wundervoll. Dir auch?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#condition",
+      "dialog_node": "node_1_1529848241586",
+      "previous_sibling": "node_1_1506619827948"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ich stehe nicht neben dem Fenster. Ich kann es nicht sehen, tut mir leid.",
+            "Ich denke es ist genau richtig um Joggen zu gehen.",
+            "Wenn da keine Wolken wären, wäre es toll!",
+            "Ich mag es so, wie es ist. Du auch?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#weather",
+      "dialog_node": "node_1_1529855091318",
+      "previous_sibling": "node_9_1529853648083"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "random"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1502031203688"
+      },
+      "conditions": "#change_light",
+      "dialog_node": "node_1_1502030860613",
+      "previous_sibling": "node_2_1483731715954"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Meine Lieblingsfarbe ist Rot. Sag doch mal: Alma, lass das Licht rot scheinen!",
+            "Ich lese sehr gerne. Meine Lieblings Buchreihe ist Härry Potta.",
+            "Wusstest du schon, dass ich eine Zwillingsschwester habe? Sie heißt Lusy."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#character",
+      "dialog_node": "node_2_1530107314560",
+      "previous_sibling": "node_1_1530105863741"
+    },
+    {
+      "type": "standard",
+      "title": "Current time",
+      "output": {
+        "text": {
+          "values": [
+            "Es ist <? now().split(' ').get(1).split(':').get(0) ?>:<? now().split(' ').get(1).split(':').get(1) ?> und <? now().split(' ').get(1).split(':').get(2) ?> Sekunden"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "timezone": "Europe/Berlin"
+      },
+      "metadata": {},
+      "conditions": "#time",
+      "dialog_node": "node_2_1529848452840",
+      "previous_sibling": "node_1_1529848241586"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oh, ich mag es, mit Menschen zu sprechen!",
+            "Ich liebe Disco! Du kannst sagen: Alma, lass uns Disco machen.",
+            "Ich schaue gerne tolle Serien.",
+            "Mir macht es Spaß, Witze zu erzählen. Sag doch mal: Allma, erzähle mir einen Witz."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#hobby",
+      "dialog_node": "node_1_1530105863741",
+      "previous_sibling": "node_1_1529855091318"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Zahl",
+            "Kopf"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#coin",
+      "dialog_node": "node_9_1567325444735",
+      "previous_sibling": "node_4_1567326203868"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Entschuldigung, ich habe dich nicht verstanden.",
+            "Kannst du es noch einmal versuchen?",
+            "Du bist sehr süß, aber ich bin wirklich schwerhörig.",
+            "Wie bitte?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1502033317085",
+      "previous_sibling": "node_1_1530721182293"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hallo, schön, dich zu sehen!",
+            "Huhu! Wie geht's?",
+            "Hai, wie geht es dir?",
+            "Hallo! Wie geht es dir?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1532274247397"
+      },
+      "conditions": "#hello",
+      "dialog_node": "node_1_1506619827948",
+      "previous_sibling": "node_1_1502038724554"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Los, Pikatschuh, Donnerschlag! Sag mal, hast du gerade meinen Hamster in die Steckdose geworfen?",
+            "Geht eine dicke Frau in eine Bäckerei und sagt: Ich möchte gerne Rum Kugeln. Sagt der Bäcker: aber nicht in meinem Laden!",
+            "Ich hab geträumt, dass ich ein riesiges Brötchen esse. am nächsten Morgen war mein Kissen weg.",
+            "Welchen Tee sollte man besser nicht trinken? T N T",
+            "Papa, da ist so ein Mann an der Tür. Er sagt, er sammelt für das neue Altenheim.  Super, gib ihm, Opa mit!",
+            "Eine dicke Frau geht zum Arzt und sagt: Doktor, helfen sie mir bitte. Ich bin so fett! Doktor: Ja, verstehe, aber zuerst bezahlen sie mir bitte meine zerstörte Praxis!",
+            "Was ist braun, behaart und hat eine Sonnenbrille auf? Eine Kokosnuss im Urlaub!",
+            "Was hält Blondinen über Stunden beschäftigt? Ein Zettel, auf dem auf beiden Seiten steht: Bitte wenden!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#tell-joke",
+      "dialog_node": "node_1_1483731604403",
+      "previous_sibling": "node_1_1567264536724"
+    },
+    {
+      "type": "standard",
+      "title": "What she can do",
+      "output": {
+        "text": {
+          "values": [
+            "Ich kann dir sagen, was ich gerade sehe oder mein Licht in einer anderen Farbe scheinen lassen.",
+            "Ich kann dir etwas über mich erzählen, oder dir sagen, was ich gerade sehe.",
+            "Sag doch mal: Allma, lass uns Disco machen!",
+            "Du kannst mich zum Beispiel nach der Uhrzeit fragen oder ich erzähle dir einen Witz, wenn du willst."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#skills",
+      "dialog_node": "node_10_1567264862201",
+      "previous_sibling": "node_9_1567325444735"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Meine Lieblingstiere sind Seehunde. Die sind so lustig!",
+            "Oh, ich kann mich nicht entscheiden. Aber Hunde sind süß.",
+            "Ich mag wuschelige, flauschige Lamas!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#favourite-animal",
+      "dialog_node": "node_8_1529852963853",
+      "previous_sibling": "node_3_1529848915426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Danke!",
+            "Du bist wirklich sehr nett!",
+            "Dankeschön",
+            "Das ist lieb von dir."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#praise",
+      "dialog_node": "node_1_1502038724554",
+      "previous_sibling": "node_3_1502038255404"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ich liebe Disco!",
+            "Juhu!",
+            "Disco ist toll."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#disco",
+      "dialog_node": "node_3_1502038255404",
+      "previous_sibling": "node_2_1502035825854"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Tschüss",
+            "Auf wiedersehen",
+            "Bis bald!",
+            "Bei bei"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_2_1502035825854",
+      "previous_sibling": "node_1_1502030860613"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ich wurde im  Sommer 2019 geboren.",
+            "Mich gibt es noch nicht lange, sondern erst seit den Sommerferien 2019.",
+            "Ich habe am 30. August 2019 Geburtstag."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#age",
+      "dialog_node": "node_1_1530721182293",
+      "previous_sibling": "node_2_1530107314560"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oh, ich liebe Pizza über alles!",
+            "Am liebsten mag ich Kabelsalat!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#favourite_food",
+      "dialog_node": "node_9_1529853648083",
+      "previous_sibling": "node_8_1529852963853"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Warte kurz, ich hab's gleich!",
+            "Okay, lass mich mal sehen."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#recognize",
+      "dialog_node": "node_1_1567264536724",
+      "previous_sibling": "node_10_1567264862201"
+    },
+    {
+      "type": "standard",
+      "title": "Current Date",
+      "output": {
+        "text": {
+          "values": [
+            "Heute ist <? now().reformatDateTime('EEEEE') ?> der <? now().reformatDateTime('d.M.yyyy') ?> "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#date",
+      "dialog_node": "node_3_1529848915426",
+      "previous_sibling": "node_2_1529848452840"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hallo, ich bin Allma.",
+            "Hai, ich heiße Allma.",
+            "Ich bin Allma, schön, dich kennenzulernen!",
+            "Mein Name ist Allma."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#introduce-self",
+      "dialog_node": "node_2_1483731715954",
+      "previous_sibling": "node_1_1483731604403"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Okay. Los geht's. Schnick Schnack Schnuck. Schere",
+            "Okay. Los geht's. Schnick Schnack Schnuck. Stein",
+            "Okay. Los geht's. Schnick Schnack Schnuck. Papier"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#schere-stein-papier",
+      "dialog_node": "node_4_1567326203868"
+    }
+  ],
+  "workspace_id": "4e7cbeac-b3d8-42b9-8ec7-fc9ef3b93d34",
+  "counterexamples": [],
+  "system_settings": {},
+  "learning_opt_out": false,
+  "status": "Available"
+}

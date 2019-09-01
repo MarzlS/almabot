@@ -16,6 +16,7 @@ exports.responses = {
     nocamera: "Entschuldigung, aber ich glaube ich bin blind heute.",
     whatisee: "Das ist ein ",
     noidea: "Entschuldigung, aber ich habe keine Ahnung was das ist.",
+    recognizecolor: "color",
     noop: ""
 };
 
